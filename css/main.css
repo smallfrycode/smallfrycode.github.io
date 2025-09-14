@@ -1,3 +1,39 @@
 body {
     background-color: rgb(50, 54, 58);
 }
+
+h1 {
+    color: whitesmoke;
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+.button_div {
+    text-align: center;
+}
+
+.button {
+    color: whitesmoke;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    align-content: center;
+
+    background-color: rgba(78, 83, 88, 0.2);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    background-color: rgba(78, 83, 88, 1);
+}

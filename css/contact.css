@@ -1,0 +1,45 @@
+form input, form textarea {
+    color: slategrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    transition-duration: 0.2s;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+form label {
+    vertical-align: top ;
+}
+
+form input:focus, form textarea:focus {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+form input[type="submit"] {
+    color: snow;
+    background-color: rgb(90, 98, 105);
+    transition-duration: 0.3s;
+    border: 2px solid snow;
+    border-radius: 15px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+}
+
+form input[type="submit"]:hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+}

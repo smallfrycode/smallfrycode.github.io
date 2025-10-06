@@ -1,0 +1,52 @@
+aside {
+    background-color: rgb(29, 107, 185);
+    width: 20%;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+aside h3 {
+    font-size: 30px;
+}
+
+aside p {
+    font-size: 18px;
+}
+
+aside button {
+    background-color: rgb(73, 78, 83);
+    border: 1px solid snow;
+    font-size: 16px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    transition-duration: 0.4s;
+}
+
+aside button:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.main_section {
+    width: 60%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(61, 68, 74);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.main_section img {
+    float: right;
+}

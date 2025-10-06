@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/games.css">
+    <script src="../main.js"></script>
+</head>
+<body>
+    <div class="head-foot">
+        <h1>Games Page</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home Page</a></li>
+            <li><a href="games.html">Games Page</a></li>
+            <li><a href="contact.html">Contact Page</a></li>
+        </ul>
+    </nav>
+
+    <div id="main_content">
+        <aside>
+            <u><h2>Rules</h2></u>
+            <p>You must choose Rock, Paper, or Scissors</p>
+            <p>The Combos are as follows:</p>
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+            </ul>
+        </aside>
+
+        <div id="main_section">
+            <h2>Rock, Paper, Scissors</h2>
+            <form>
+                <label for="choice">Your choice: </label>
+                <select name="options" id="choice">
+                    <option value="rock">Rock</option>
+                    <option value="scissors">Scissors</option>
+                    <option value="paper">Paper</option>
+                </select>
+                <button type="submit" onclick="rpsGame(); return false;">Submit</button>
+            </form>
+
+            <div id="game_rps">
+                <div id="player">
+                    <h3>You Chose: </h3>
+                    <p id="plrText"></p>
+                </div>
+                <div id="computer">
+                    <h3>Computer Chose: </h3>
+                    <p id="computerText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="head-foot">
+        <p>&#169; smallfrycode 
+            <img id="user_icon" src="https://avatars.githubusercontent.com/u/169207288?v=4" alt="smallfrycode profile picture" height="20px" width="20px">
+        </p>
+    </div>
+</body>
+</html>

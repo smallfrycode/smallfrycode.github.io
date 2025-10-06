@@ -27,6 +27,10 @@ function rpsGame() {
     let plrText = document.getElementById("plrText");
     let computerText = document.getElementById("computerText");
 
+    if (!["rock", "paper", "scissors"].includes(plrChoice)) {
+        alert("OI Stop injecting code >:(");
+        return;
+    }
     if ((computerChoice == "spock") ||(computerChoice == "rock" && plrChoice == "scissors") ||
         (computerChoice == "scissors" && plrChoice == "paper") || (computerChoice == "paper" && plrChoice == "rock")) {
         alert("You Lose");
